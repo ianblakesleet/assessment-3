@@ -1,0 +1,87 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  background-image:url(/assessment-3-image.png);
+}
+
+nav {
+	border-bottom: 2px solid rgb(76, 74, 165);
+	text-align: center;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: rgb(255, 0, 255);
+}
+
+a:visited {
+	color: rgb(141, 66, 83);
+}
+a:hover{
+	color: yellow;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+.centerText {
+	text-align: center;
+}
+
+#listFlex{
+	display: flex;
+	justify-content: space-around;
+}
+.homepage-textcenter{
+	text-align: center;
+}
+
+.is {
+	background-color: yellow;
+	border: none;
+	font-size: 12px;
+	height: 100px;
+	width: 150px ;
+	border-radius: 20px;
+}
+.is:hover {
+	background-color: black;
+	color: yellow;
+}
+	
+.btn-flex{
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+strong{
+	color: yellow;
+}
+h1{
+	font-size: 30px;
+	padding-bottom: 20px;
+	color: yellow;
+}
+hr{
+	height: 4px;
+	border-color: rgb(76, 74, 165);
+}
